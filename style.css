@@ -1,0 +1,411 @@
+html,
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+    /* base font styles */
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    padding: 80px 50px;
+}
+
+header .wrapper {
+    padding: 20px 50px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/Bear_topper.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    min-height: 450px;
+}
+
+header h1 {
+    padding-top: 250px;
+    font-size: 500%;
+}
+
+.sec_title {
+    display: block;
+    background-color: #9a6e48;
+    color: black;
+    padding: 5px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    background-color: #9a6e48;
+}
+
+footer .wrapper {
+    padding: 10px 40px;
+}
+
+body {
+    background-image: url(images/background_pattern.png);
+    background-size: 10%;
+    background-repeat: round;
+    background-color: #85000d;
+}
+
+main {
+    background-color: #222222;
+}
+
+main p {
+    padding: 20px 25px;
+}
+
+p {
+    margin: 0%;
+    color: rgb(147, 147, 147);
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    color: #C49A6C;
+}
+
+h2 {
+    text-align: center;
+    color: #382005;
+}
+
+h3 {
+    margin: auto 0px;
+    padding: 5px 10px;
+}
+
+h4 {
+    text-align: center;
+    color: #331a00;
+    font-size: 30px;
+}
+
+h5 {
+    text-align: center;
+    color: #331a00;
+    font-size: 30px;
+}
+
+h6 {
+    text-align: center;
+    color: #331a00;
+    font-size: 300px;
+    color: rgb(147, 147, 147);
+}
+
+nav {
+
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-height: 10vh;
+    padding: 20px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+nav a {
+    font-weight: 800;
+    color: #382005;
+    padding: 0px;
+
+}
+
+.nav_logo {
+    max-height: 900px;
+
+}
+
+
+#active {
+    text-decoration: overline underline;
+    font-style: bold;
+    color: #71000b;
+}
+
+/* image on the left, text on the right */
+.left_grid {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+
+}
+
+/* image on the right, text on the left */
+.right_grid {
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+
+}
+
+/* text on the left side */
+.left_text {
+    display: block;
+    padding-left: 7%;
+    padding-top: 20%;
+    color: #3E3A3E;
+}
+
+/* text on the right side */
+.right_text {
+    display: block;
+    padding-right: 7%;
+    padding-top: 20%;
+    color: #3E3A3E;
+}
+
+.grid_img {
+    display: flex;
+    align-items: center;
+}
+
+#bear {
+
+    background-image: url(images/Cute_bear.png);
+    background-position: 50%;
+    background-color: #85000d;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+#bear:hover {
+    background-image: url(images/Creepy_bear.png);
+}
+
+#reasonwhy {
+
+    background-image: url(images/IMG_reasnswhy.JPG);
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+.footer_text li,
+.footer_text p {
+    color: #331a00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.grid_parent {
+    grid-gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px 20px;
+}
+
+#logo {
+    background-image: url(images/logoCTHORRORBEAR.png);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+#memyi {
+    background-image: url(images/IMG_2406.jpg);
+    background-position: 50%;
+    background-color: #85000d;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+#memyi:hover {
+    background-image: url(images/IMG_1001.JPG);
+}
+
+#Tedds {
+    background-image: url(images/IMG_2460.JPG);
+    background-position: 50%;
+    background-color: #85000d;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+#twinsssy {
+    background-image: url(images/IMG_1440.jpg);
+    background-position: 50%;
+    background-color: #85000d;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin: 20px 20px;
+}
+
+
+.button {
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+    margin: 20px;
+
+}
+
+.button-red {
+    background-color: #85000d;
+}
+
+.button-red:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.button_aline {
+    text-align: center;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px) {
+
+    .left_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+    .right_grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+
+      .left_text {
+        display: block;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        color: #3E3A3E;
+    }
+
+  
+    .right_text {
+        display: block;
+        padding-left: 7%;
+        padding-right: 7%;
+        padding-top: 0px;
+        margin-bottom: 10px;
+        color: #3E3A3E;
+    }
+    .nav_grid {
+        grid-template-columns: 1fr;
+        grid-gap: 5%;
+    }
+
+    nav {
+        max-height: 30vh;
+    }
+    
+    #bear {
+        grid-template-columns: 1fr;  
+    }
+
+
+}
+@media screen and (max-width: 900px) {
+    header h1 {
+        padding-top: 250px;
+        font-size: 75px;
+    }
+    header {
+        min-height: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header h1 {
+        padding-top: 170px;
+        font-size: 40px;
+    }
+    header {
+       min-height: 125px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header h1 {
+        padding-top: 125px;
+        font-size: 30px;
+    }
+    header {
+       min-height: 125px;
+    }
+   
+}
+
+@media screen and (max-width: 430px) {
+    header h1 {
+        padding-top: 50px;
+        font-size: 17px;
+    }
+    header {
+       min-height: 100px;
+    }
+    nav {
+        padding: 0px 20px;
+    }
+    nav a {
+        font-weight: 500;
+      font-size: 15px;
+      padding: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    header h1 {
+        padding-top: 90px;
+        font-size: 13px;
+    }
+    header {
+       min-height: 95px;
+    }
+    nav a {
+        font-weight: 400;
+      font-size: 10.0px;
+      padding: 0px;
+    }
+}
+
+@media screen and (max-width: 343px) {
+    header h1 {
+        padding-top: 60px;
+        font-size: 10px;
+    }
+    header {
+       min-height: 70px;
+    }
+    nav a {
+      font-size: 10.0px;
+      padding: 0px;
+    }
+}
